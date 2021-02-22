@@ -1,5 +1,5 @@
 # selenium-java SevenSender Task3
-Automation of KOMOOT.COM using Page Object/Page Factory 
+Automation of KOMOOT.COM using Page Object/Page Factory with JENKINS integration (localhost)
 
 ## Prerequisites 
    Check JAVA and MAVEN system **cmd command**
@@ -51,10 +51,10 @@ Automation of KOMOOT.COM using Page Object/Page Factory
 - Download JENKIN war file from https://www.jenkins.io/download/
 - Go to jenkins.war file location and run through *CMD* **java -jar jenkins.war -httpPort=8080
 - Verify JENKINS IS FULLY UP AND RUNNING MESSAGE https://i.ibb.co/bWHMgwW/jenkins-running.jpg
-- Open browser and navigate to **http://localhost:8080/** for first use create account and login
+- Open browser and navigate to **http://localhost:8080/** for first use, create account and login
 - Configure local JDK and MAVEN path. Go to *manage jenkins* -> *global tool configuration* -> click on *JDK installations...* and insert local JDK path https://i.ibb.co/PwSHGy0/java.jpg then navigate to *Maven installations* and insert maven path https://i.ibb.co/JCRwN5m/maven.jpg then *save* changes
 - Click on *New Item* Enter item name and select *Freestyle project*
-- Click on *configure* https://i.ibb.co/nm7dvnd/configure.jpg under general click on *Advanced...* use custom workspace (as we are trigging mvn on local as menctioned in task3) write command **${JENKINS_HOME}/nameOfProject** and under Build select maven version, **test** command Goals filed. https://i.ibb.co/2Sf18mx/jenkins1.png
+- Click on *configure* https://i.ibb.co/nm7dvnd/configure.jpg under general click on *Advanced...* use custom workspace (as we are trigging mvn on local as menctioned in task3) write command **${JENKINS_HOME}/nameOfProject** and under Build select maven version, **test** command Goals filed. https://i.ibb.co/2Sf18mx/jenkins1.png. (Other mvn commands can be found https://tinyurl.com/1vf8jk63)
 - Past your project into local jenkins repository 
 ```
 **C:\Users\XYZ\.jenkins**
