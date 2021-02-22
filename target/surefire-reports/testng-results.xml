@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-22T15:00:57 CET" name="Suite" finished-at="2021-02-22T15:01:45 CET" duration-ms="47903">
+    <groups>
+    </groups>
+    <test started-at="2021-02-22T15:00:57 CET" name="TC001_simpleLoginTest" finished-at="2021-02-22T15:01:10 CET" duration-ms="13357">
+      <class name="testCases.TC001_simpleLoginTest">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testCases.TC001_simpleLoginTest@3d74bf60]" started-at="2021-02-22T15:00:57 CET" name="LaunchBrowser" finished-at="2021-02-22T15:01:04 CET" duration-ms="7615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="LoginTest()[pri:0, instance:testCases.TC001_simpleLoginTest@3d74bf60]" started-at="2021-02-22T15:01:04 CET" name="LoginTest" finished-at="2021-02-22T15:01:09 CET" duration-ms="5068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.TC001_simpleLoginTest@3d74bf60]" started-at="2021-02-22T15:01:09 CET" name="CloseBrowser" finished-at="2021-02-22T15:01:10 CET" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testCases.TC001_simpleLoginTest -->
+    </test> <!-- TC001_simpleLoginTest -->
+    <test started-at="2021-02-22T15:01:10 CET" name="TC002_pageTitleTest" finished-at="2021-02-22T15:01:28 CET" duration-ms="18076">
+      <class name="testCases.TC002_pageTitleTest">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testCases.TC002_pageTitleTest@6eda5c9]" started-at="2021-02-22T15:01:10 CET" name="LaunchBrowser" finished-at="2021-02-22T15:01:18 CET" duration-ms="7514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="PageTitleTest()[pri:0, instance:testCases.TC002_pageTitleTest@6eda5c9]" started-at="2021-02-22T15:01:18 CET" name="PageTitleTest" finished-at="2021-02-22T15:01:27 CET" duration-ms="9817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageTitleTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.TC002_pageTitleTest@6eda5c9]" started-at="2021-02-22T15:01:27 CET" name="CloseBrowser" finished-at="2021-02-22T15:01:28 CET" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testCases.TC002_pageTitleTest -->
+    </test> <!-- TC002_pageTitleTest -->
+    <test started-at="2021-02-22T15:01:28 CET" name="TC003_shopPriceTest" finished-at="2021-02-22T15:01:45 CET" duration-ms="16443">
+      <class name="testCases.TC003_shopPriceTest">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testCases.TC003_shopPriceTest@43195e57]" started-at="2021-02-22T15:01:28 CET" name="LaunchBrowser" finished-at="2021-02-22T15:01:36 CET" duration-ms="7384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ShopPriceTest()[pri:0, instance:testCases.TC003_shopPriceTest@43195e57]" started-at="2021-02-22T15:01:36 CET" name="ShopPriceTest" finished-at="2021-02-22T15:01:44 CET" duration-ms="8405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShopPriceTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:testCases.TC003_shopPriceTest@43195e57]" started-at="2021-02-22T15:01:44 CET" name="CloseBrowser" finished-at="2021-02-22T15:01:45 CET" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- testCases.TC003_shopPriceTest -->
+    </test> <!-- TC003_shopPriceTest -->
+  </suite> <!-- Suite -->
+</testng-results>

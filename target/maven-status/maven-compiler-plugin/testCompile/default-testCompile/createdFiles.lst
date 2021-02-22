@@ -1,0 +1,11 @@
+testCases\TC002_pageTitleTest.class
+testCases\TC004_routesAndTopics.class
+objectRepository\Komoot_LoginPage.class
+testCases\TC001_simpleLoginTest.class
+objectRepository\Komoot_RoutesAndTopic.class
+objectRepository\Komoot_HomePage.class
+objectRepository\Komoot_LandingPage.class
+testCases\TC003_shopPriceTest.class
+objectRepository\Komoot_Discover.class
+objectRepository\Komoot_Shop.class
+testCases\TC005_dataDrivenSimpleLogin.class
