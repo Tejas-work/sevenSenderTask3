@@ -55,7 +55,10 @@ Automation of KOMOOT.COM using Page Object/Page Factory
 - Configure local JDK and MAVEN path. Go to *manage jenkins* -> *global tool configuration* -> click on *JDK installations...* and insert local JDK path https://i.ibb.co/PwSHGy0/java.jpg then navigate to *Maven installations* and insert maven path https://i.ibb.co/JCRwN5m/maven.jpg then *save* changes
 - Click on *New Item* Enter item name and select *Freestyle project*
 - Click on *configure* https://i.ibb.co/nm7dvnd/configure.jpg under general click on *Advanced...* use custom workspace (as we are trigging mvn on local as menctioned in task3) write command **${JENKINS_HOME}/nameOfProject** and under Build select maven version, **test** command Goals filed. https://i.ibb.co/2Sf18mx/jenkins1.png
-- Past your project into local jenkins repository **C:\Users\XYZ\.jenkins**
+- Past your project into local jenkins repository 
+```
+**C:\Users\XYZ\.jenkins**
+```
 - Return to Dashboard slect project and click on **Build Now**
 - **TASK3 SCHEDULE TEST RUN for NOON everyday** Under build trigger section *Build Triggers* -> *Build periodically* Documentation = https://tinyurl.com/rrf4mbbb Proof = https://i.ibb.co/vjzKtmK/success.jpg https://i.ibb.co/kHYG984/success2.jpg Build is automatically triggred at 5.35 PM (JENKINS SHOULD BE UP AND RUNNING)
 	```
