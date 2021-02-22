@@ -61,6 +61,8 @@ Automation of KOMOOT.COM using Page Object/Page Factory
 	```
 	35 17 * * * 
 	```
+- similarly Schedule Automated tests on Jenkins for NOON EVERYDAY (TASK3 point 2)
+ 
 
 
 💪 Mastering automation testing to improve software quality
