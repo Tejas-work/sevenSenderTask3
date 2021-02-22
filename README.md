@@ -65,8 +65,11 @@ Automation of KOMOOT.COM using Page Object/Page Factory
 	35 17 * * * 
 	```
 - similarly Schedule Automated tests on Jenkins for NOON EVERYDAY (TASK3 point 2)
- 
-
+ ```
+ ONLY TRIGGRING 2 Test Cases for DEMO. All Test Cases can be triggred by modifying testng.xml file
+ <test name="TC001_simpleLoginTest">
+ <test name="TC002_pageTitleTest">	
+```
 
 💪 Mastering automation testing to improve software quality
 
