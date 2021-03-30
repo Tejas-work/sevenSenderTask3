@@ -1,4 +1,4 @@
-# selenium-java SevenSender Task3
+# selenium-java seleniumRepo3
 Automation of KOMOOT.COM using Page Object/Page Factory with JENKINS integration (localhost)
 
 ## Prerequisites 
